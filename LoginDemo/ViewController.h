@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController{
+    @public
     //用户名提示label
     UILabel* _lbUsername;
     //密码提示label

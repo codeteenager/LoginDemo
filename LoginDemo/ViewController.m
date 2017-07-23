@@ -77,6 +77,7 @@
 - (void)pressRegister{
 
 }
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     //回收键盘对象
     [_tfUsername resignFirstResponder];
